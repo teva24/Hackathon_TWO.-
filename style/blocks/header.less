@@ -1,0 +1,44 @@
+//main: ../style.less
+
+.logo {
+    text-decoration: none;
+    color: @primary;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header {
+    margin-top: 2.3rem;
+    margin-bottom: 100px;
+}
+
+.header__account {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.username {
+    display: block;
+    text-align: center;
+    margin-right: 60px;
+}
+.submenu {
+    display: none;
+}
+img + ul {
+    display:none;
+}
+img:hover + ul {
+    display:block;
+    position: absolute;
+    padding-top: 115px;
+    text-align: right;
+    padding-left: 100px;
+}
